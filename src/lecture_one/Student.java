@@ -1,4 +1,4 @@
-
+package lecture_one;
 
 public class Student {
     private String firstName;

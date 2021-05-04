@@ -1,3 +1,5 @@
+package lecture_one;
+
 public class DivisionTest {
 
     public static void main(String[] args) {

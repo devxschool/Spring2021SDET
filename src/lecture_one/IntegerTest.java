@@ -1,3 +1,5 @@
+package lecture_one;
+
 public class IntegerTest {
 
     public static void main(String[] args) {
