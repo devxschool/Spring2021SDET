@@ -3,16 +3,13 @@ package lecture_two;
 public class RandomQuestion {
 
     private static String[] students = {
-            "Adina",
+
             "Aisha",
             "Aisulu",
             "Aizada",
-            "Amra",
             "Anna",
-            "Askar",
             "Bakai",
             "Casey",
-            "Daniyar",
             "Dinara",
             "Edisa",
             "Elina",
@@ -20,15 +17,10 @@ public class RandomQuestion {
             "Kanybek",
             "Kosta",
             "Lukas",
-            "Mansur",
-            "Marat",
             "Memet",
             "Milda",
             "Noilya",
-            "Nurs",
-            "Nursultan",
             "Ruslana",
-            "Samuel",
             "Tim",
             "Victoria"
     };
