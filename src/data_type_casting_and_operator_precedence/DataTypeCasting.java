@@ -92,5 +92,16 @@ public class DataTypeCasting {
         }else {
             System.out.println("L is bigger than k");
         }
+
+        // SHA-256 2^256
+        // Crypto mining
+        // dsn354t4lkw3n
+        // GPU - graphical processing unit NVIDIA Geforce
+
+        int s = 5;
+        double n = 2.34;
+
+        double sum = s + n;
+        System.out.println(sum);
     }
 }
