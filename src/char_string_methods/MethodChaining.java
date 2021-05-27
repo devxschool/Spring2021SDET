@@ -9,14 +9,15 @@ public class MethodChaining {
         System.out.println(originalString.length());
         String configuredString = originalString
                 .toLowerCase()
-                .trim()
-                .substring(originalString.length()-6);
+                .trim();
 
-        System.out.println(originalString.length()-6);
+        System.out.println(configuredString.substring(configuredString.length()-2));
+        // when we pass string.length()-x, it will start truncating(substring) from the end of given string.
+
+        System.out.println(originalString.substring(originalString.length()-6));
+        System.out.println(originalString.substring(6));
 
         System.out.println(configuredString);
 
-        originalString = originalString.substring(4);
-        System.out.println(originalString);
     }
 }
