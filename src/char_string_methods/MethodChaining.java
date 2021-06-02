@@ -12,12 +12,22 @@ public class MethodChaining {
                 .trim();
 
         System.out.println(configuredString.substring(configuredString.length()-2));
-        // when we pass string.length()-x, it will start truncating(substring) from the end of given string.
 
         System.out.println(originalString.substring(originalString.length()-6));
         System.out.println(originalString.substring(6));
 
         System.out.println(configuredString);
 
+        String str = "Chicago";
+
+        System.out.println(str.substring(4));
+        System.out.println(str.substring(4,str.length()));
+        System.out.println(str.substring(str.length()-3));
+// 7-3
+        int indexNumberOfStr = str.length() - 3;
+        System.out.println(indexNumberOfStr);
+
+        System.out.println(str.substring(indexNumberOfStr));
+        System.out.println(str.substring(str.indexOf("a")));
     }
 }
