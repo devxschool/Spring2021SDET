@@ -1,0 +1,38 @@
+- What are data types?
+- What is a variable in java?
+    -> Name of the location where we store some values,
+    it contains data and the names should be unique and meaningful;
+    -> we can overwrite variables [EX: int temp = 0
+    but we can update it's value as needed,
+    temp = 1 and now value temp variable holds is equal to 1]
+
+- How do we cast double to int? EX: double x = 2.5132165 convert it to
+    int y = (int) x; y -> 2;
+
+- What is a method in java?
+    -> Methods in java is the block of code that runs when it's called;
+    -> they are used to avoid repetition, create once and use them as many times as needed;
+
+- What is a return type in a method? Why do we need it?
+    -> int sum(int num1, int num2){
+           return int;
+    }
+
+- What are the access modifiers in java?
+    -> they are used to set the visibility(accessibility) of methods:
+        - public -> accessible in all classes
+        - private -> accessible only within the same class
+        - default -> accessible within the same class and or package
+        - protected -> accessible in the class defined and it's subclasses
+
+- How do we create a method(Method structure)?
+What are the best practices to follow?
+    EX: // create a method that can take 2 integers and return their
+    // sum as an integer and it has to be public and static
+
+    public static int addTwoNumbers(int num1, int num2){
+
+        int sum = num1 + num2;
+        return sum;
+
+    }

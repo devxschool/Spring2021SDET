@@ -1,4 +1,4 @@
-#String Methods
+#String methods.Methods
 
 ###public String substring(int start)
 
