@@ -92,5 +92,4 @@ public class CalculatorOf2Integers {
         return (double) num1 / (double) num2;
     }
 
-
 }
