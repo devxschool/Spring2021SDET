@@ -12,7 +12,7 @@ public class Messages {
     }
 
     static void printMsg(){
-        System.out.println("Please enter 2 numbers: ");
+        System.out.println("Please enter 2 digits: ");
     }
 
     static void printResMsg(double x){
