@@ -9,6 +9,7 @@ public class Methods2 {
         System.out.println(sumOfTwoNumbers(integer1, integer2));
         System.out.println(integer1+integer2);
 
+
     }
 
     // create method that adds 2 integers and return their sum as integer

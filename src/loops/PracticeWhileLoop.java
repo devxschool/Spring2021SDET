@@ -22,5 +22,7 @@ public class PracticeWhileLoop {
         }
 
         System.out.println("The number you have entered can be divided by 2: " + count + " times.");
+
+
     }
 }
