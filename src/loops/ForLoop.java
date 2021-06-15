@@ -8,14 +8,9 @@ public class ForLoop {
     public static void main(String[] args) {
 
 
-        // i++;
-        // i == 1;
-        // ++i == 1;
+        for (int i = 0; i < 1; i++){
 
-
-        for (int i = 0; i < 5; i++){
-
-            System.out.println(": Hello world!"); // is the body of the loop
+            System.out.println(i + ": Hello world!"); // is the body of the loop
 
         }
 
