@@ -25,7 +25,8 @@ public class EvenAndOddNumber {
     }
 
     public static String printNumberType(int input){
-
+        // when we divide any number by 2 and remainder is 0, then it is even number
+        // we use modulus(%) to get the remainder of a number divided by another number
         if(input % 2 == 0) {
             return "Even";
         }

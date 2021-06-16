@@ -12,7 +12,7 @@ public class NestedForLoop1 {
 
             for (int j = 1; j <= 4; j++){
 
-                System.out.println("i: " + i + ", j: " + j);
+                //System.out.println("i: " + i + ", j: " + j);
             }
         }
     }
