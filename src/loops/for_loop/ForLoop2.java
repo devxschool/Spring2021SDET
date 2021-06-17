@@ -19,7 +19,6 @@ public class ForLoop2 {
         String input = scan.nextLine();
 
         System.out.println(containsDigit(input));
-
     }
 
     // I want to create a method with will return Boolean and take input as String
