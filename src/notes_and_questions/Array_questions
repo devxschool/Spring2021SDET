@@ -1,0 +1,25 @@
+1. What are the characteristics of an array in java?
+	- array stores multiple values in a single reference variable[object] because we refer to the elements by their indices[indexes];
+	- int vs int[] -> first one is a int variable and second one is an array object type of int;
+	- size of an array is fixed;
+	- it can only store same data types;
+	- the index of first element always starts form 0;
+	- the same time consumed to access the first and the last elements;
+
+2. How do we declare and array of int type with size 6?
+	- int[] arr = new int[6];
+
+3. How do I access the second element of the array?
+	- sout(arr[1]);
+
+4. How do I assign value to the n'th element of an array?
+	- arr[3] = 4;
+
+5. What data types does array support?
+	- primitive, Strings, non primitive, objects.
+
+6. What are the default values of empty elements for different data types in an array?
+	- int: 0, doubles: 0.0; float: 0.0; String: null; boolean: false, char: \u0000
+
+8. What exception is thrown if I try to get the element that's not in the range of the array size?
+	- System.out.println(arr[7]) -> IndexOutofBoundException
