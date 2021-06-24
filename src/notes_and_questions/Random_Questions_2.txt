@@ -1,0 +1,41 @@
+- Switch case statement syntax?
+	EX: I want to print out weekday [Mon, Tue, Wed, Thu] or weekend[Sat, Sun]
+	depending on the day of the week by using switch()
+		String day = “Friday”;
+		switch (day){
+                    case "Monday":
+                    case "Tuesday":
+                    case "Wednesday":
+                    case "Thursday":
+                    case "Friday":
+                        System.out.println("Weekday");
+                        break;
+                    case "Saturday", "Sunday":
+                        System.out.println("Weekend");
+                        break;
+                    default:
+                        System.out.println("It's not a day");
+                }
+
+
+
+- What is a variable in java? What data types does java support?
+    - is a container to store an information: int, float, byte, String etc.
+
+- Type casting in java? Narrowing casting[explicit - manually] and Widening casting[implicit - automatically]
+	int a = 2;
+	double c = a;
+
+	float z = 2.34;
+	int x = (int) z;
+
+- How to convert string to int? And vice versa?
+	EX: String s = “3”;
+		int y = Integer.parseInt(s);
+
+- Convert char to int?
+	EX: char c = ‘4’;
+		int a = ?
+
+- Write a method that prints out the even numbers from 0-100?
+	Use for loop.
