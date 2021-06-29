@@ -39,3 +39,31 @@
 
 - Write a method that prints out the even numbers from 0-100?
 	Use for loop.
+
+- Create an array of chars?
+char[] charArr = new char[5];
+charArr[0] = ‘a’;
+charArr[1] = ‘b’;
+…
+
+- Can I assign an array to another array? How to do that?
+char[] charArr2 = charArr;
+Int I = 0;
+For (char c: charArr){
+	charArr2[i++] = c;
+}
+
+- How to convert char to string?
+Char a = ‘g’;
+String s = String.valueOf(a);
+String s2 = Character.toString(a);
+// convert string to char
+Char b = s.charAt(0);
+
+- How do I find the index of a character from a given string?
+String str = “Chicago”;
+Int I = str.indexOf(‘c’);
+
+- How to convert String to int?
+String n = “5”;
+Int I = Integer.parseInt(n);
