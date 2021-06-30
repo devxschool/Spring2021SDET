@@ -34,7 +34,7 @@ public class Arraylist1 {
         //removing elements from the list
         System.out.println(strList.remove("AI"));
         System.out.println(strList);
-        System.out.println(strList.remove("Deep Web"));
+        System.out.println(strList.remove("Dark Web"));
         System.out.println("Removing index 0: " + strList.remove(0));
         System.out.println(strList);
 
