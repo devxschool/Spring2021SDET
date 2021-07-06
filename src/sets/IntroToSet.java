@@ -13,15 +13,20 @@ public class IntroToSet {
         System.out.println(set);
 
         // Array of Strings
-        String[] strArr = {"hi", "Hi", "Hello", "Bye", "My", "Coffee", "Hi", "Bye", "Coffee", "Apple", "apple", "APPLE", "SAMSUNG", "2Google"};
+        String[] strArr = {"hi", "Hi", "Hello", "Bye", "My", "Coffee",
+                "Hi", "Bye", "Coffee", "Apple", "apple", "APPLE", "SAMSUNG", "2Google"};
+
         // Converted an array to Arraylist
         List<String> strList = Arrays.asList(strArr);
+
         // We are passing the arraylist to new Hashset to get rid of duplicates
         Set<String> setOfStr = new HashSet<>(strList);
+
         System.out.println("Arraylist: " + strList);
         System.out.println("HashSet: " + setOfStr);
         // Storing our Hashset to Treeset
         Set<String> treeSet = new TreeSet<>(setOfStr);
+
         System.out.println("TreeSet: " + treeSet);
     }
 }

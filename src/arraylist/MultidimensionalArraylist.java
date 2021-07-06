@@ -34,7 +34,17 @@ public class MultidimensionalArraylist {
         System.out.println("Final list: " + finalList);
         System.out.println("This should be 6: " + finalList.get(1).get(2));
         // finalList = [ [1, 2, 3, 10], [4, 5], [7, 8, 9] ]
+        /*
+              [
+                0 -> [1, 2, 3, 10]
+                1 -> [4, 5]
+                2 -> [7, 8, 9]
+              ]
+         */
         // finalList[1][0]
+        // finalList.get(0).get(2) -> 3
+        // finalList.get(1).get(1) -> 5
+
         int[] arr = new int[finalList.size()];
 
         for (int i = 0; i < finalList.size(); i++){
