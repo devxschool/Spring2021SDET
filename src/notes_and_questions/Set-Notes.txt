@@ -1,0 +1,26 @@
+1) What do you know about an ArrayList
+2) What is the difference between an Array and ArrayList
+ArrayList was implemented using array
+Set - is a collection that contains no duplicate elements, and whose elements are not in a particular order. DOsen't allow primitive data types. Data in Set is not indexed;
+The most common use for Set is to verify if any particular (given) element is a part of our collection(group)
+Distinct - meaning no duplicates; Unique values;
+HashSet - Stored unique elements in no particular order;
+LinkedHashSet - stores elements in order they were received;
+TreeSet stores elements in their natural order or provided order using Comparator;
+currentCollection.addAll(providedCollection) adds all the elements form a provided collection to current collection;
+add(element) adds the provided element to a Set;
+size(); returns the length(size) of a Set;
+remove(element) removes the provided element from a set;
+set.clear() Clear method removes all elements from the set, the result will be an               empty set
+isEmpty() returns true if your set is actually empty(no elements) and false                   otherwise
+contains(element) returns true if current set contains the given element
+Autoboxing - an automatic process that converts primitives to Objects
+After U scan for an Integer you should close the line with empty .nextLine() statement in order to read String next;
+Iterator - Is used to iterate through elements of a collection, especially unindexed collection;
+Provide the same type for your iterator that is the type of the collection you iterate through
+iterator() returns an iterator Object for that spec collection
+Retrieve -  get the element from a collection to perform some actions
+Difference between .remove(element) method of a set and .remove of an iterator
+- 1st one expects an input element to be removed;
+- 2nd no input, removes the element of a current iteration;
+Iterator iterates through all the elements only 1 way and only once
