@@ -20,8 +20,9 @@ public class ReversingArraylist {
         System.out.println(list);
 
         List<String> reversedList = new ArrayList<>();
-        int lastElementIndex = list.size()-1;
-        for (int i = lastElementIndex; i >= 0; i--){
+
+        int lastElementIndexOfList = list.size()-1;
+        for (int i = lastElementIndexOfList; i >= 0; i--){
             String name = list.get(i);
             reversedList.add(name);
         }

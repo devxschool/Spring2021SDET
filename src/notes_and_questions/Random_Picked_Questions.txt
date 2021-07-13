@@ -1,0 +1,22 @@
+
+
+	1. Implicit vs explicit type casting?
+
+	Implicit -> assigning one data type to another, form smaller to bigger data type;
+	Explicit -> manual conversion, from large data type to smaller.
+	EX: Explicit:
+	    double a = 12.3;
+	    int b = (int) a;
+
+	2. Write a method that takes an array of integers as a parameter and returns an array of strings with the same size
+	as the integer array, which will correspond to each integer in the array with either "even" or "odd".
+	EX: given array {1,2,3,4} -> expected return array of strings is {"odd", "even", "odd", "even"}.
+	Pay attention that each of these strings are corresponding to each of the given integers in the array.
+
+	3. How to convert a char array to char arraylist?
+
+	4. Method to reverse a string?  EX: Given string="Change your life with Devxschool!" -> expected: "!loohcsxveD htiw efil ruoy egnahC".
+	5. Types of Set collection? And their differences?
+
+    6. Difference between String and String Builder?
+       What methods does String Builder has that String class doesn't have? Examples need to be provided with answers.
