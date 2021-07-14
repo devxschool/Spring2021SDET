@@ -20,3 +20,26 @@
 
     6. Difference between String and String Builder?
        What methods does String Builder has that String class doesn't have? Examples need to be provided with answers.
+
+     ==========================================================================================================
+       1. What are variables?
+       Variables store information and they have data types.
+       2. What are instance variables?
+       Instance variables are created outside of the methods but inside the class in class level, so that
+       when we initialize an object those instance variables van get initialized.
+       3. What is a class in java?
+       Entity that determines how will the object of it's type behave and what will it contain [it's states]
+       States of an object are defined by classes instance variables.
+       4. What are objects in java?
+       - Objects are data or behavior that describe the class and also they instances of the class.
+
+       - Given String str = “Trust the process and connect the dots” and write a method that takes this
+       string as an input and return an Array of strings with each of the word as a separate element in it;
+
+       - Write a method to find the min, max and average of numbers from the given array.
+       EX: [1,2,3,4,5] -> int min = 1, int max = 5 and double average = 3.00;
+
+       - Write a method that takes an array of strings as a parameter and returns a Map<Integer, String> indices
+       of the array as keys and string elements at those indexes as values for them;
+
+       - Write a Switch() statement for the months of the year and days of the week;
