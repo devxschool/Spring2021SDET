@@ -11,17 +11,25 @@ public class HotelApp {
         Map<String, Integer> map1 = new HashMap<>();
         map1.put("King", 1);
         map1.put("Queen", 1);
-        Room room1 = new Room(100, 1, map1, false);
+        Room room1 = new Room(100, 2, map1, false);
+
+        Map<String, Integer> map = new HashMap<>();
+        map.put("King", 0);
+        map.put("Queen", 2);
+        Room room7 = new Room(110,map,true);
+        System.out.println("The number of rooms on room 7 is: " + room7.numberOfRooms);
+
+        Room room8 = new Room(113, 5, true);
 
         Map<String, Integer> map2 = new HashMap<>();
         map2.put("King", 2);
         map2.put("Queen", 1);
-        Room room2 = new Room(101, 2, map2, true);
+        Room room2 = new Room(101, 3, map2, true);
 
         Map<String, Integer> map3 = new HashMap<>();
         map3.put("King", 2);
         map3.put("Queen", 0);
-        Room room3 = new Room(102, 1, map3, false);
+        Room room3 = new Room(102, 2, map3, false);
 
         Map<String, Integer> map4 = new HashMap<>();
         map4.put("King", 1);
@@ -33,6 +41,7 @@ public class HotelApp {
         rooms.add(room2);
         rooms.add(room3);
         rooms.add(room4);
+        rooms.add(room7);
 
         System.out.println("The vacant room is: " + returnVacantRoom(rooms));
         Scanner scan = new Scanner(System.in);
