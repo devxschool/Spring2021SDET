@@ -2,7 +2,12 @@ package oop.hospital;
 
 public class Patient {
 
-    String name;
+    // instance initializer where we can initialize instance variables
+    {
+        nationality = "American";
+    }
+
+    private String name;
     String DOB;
     String nationality;
     private String phoneNumber;
@@ -12,9 +17,18 @@ public class Patient {
     // from other classes
     public final int ID = 1234;
 
+    private static double ibuprofenPrice;
+    private static double advilPrice;
+    private static double hallsPrice;
+    // static block is used for initializing the static variables of the class
+    static {
+        ibuprofenPrice = 120;
+        advilPrice = 10;
+        hallsPrice = 5;
+    }
+
     public Patient(String name){
         this.name = name;
-        nationality = "American";
     }
 
     public Patient(String name, String DOB){
@@ -53,4 +67,13 @@ public class Patient {
     public String getPhoneNumber() {
         return phoneNumber;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
+
