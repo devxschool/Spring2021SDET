@@ -47,6 +47,28 @@ variables. Setter methods are used for updating the values for instance variable
 we can implement some logic or condition to make sure that undesired, unexpected data cannot 
 be input.
 
+## this() vs this:
+_this()_ is used for calling other constructors in the same class. 
+_this_ is used for referring to instance variables. 
+
+## super() vs super:
+_super()_ it has to be the first statement inside the subclasses constructor and it is used for calling the 
+constructor from th parent [super] class.
+_super_ to refer to the variables and methods of the parent [super] class.
+
+## Method overloading vs method overriding:
+_Method overloading_ is when we have the same method name with same return 
+type but they have to have different parameters [method signature must be different]
+_Method overriding_ is when we inherit another class, we need to override 
+the method in the parent class by implementing it in subclass. They have to
+have the same name and same method signature.
+
+## What is Inheritance:
+_Inheritance_ is used when one class wants to use the features of the other
+class. The class that's inherited is called parent class and the extending classes
+are called subclasses[child classes]. Only public classes can be extended, 
+if we try to inherit the final class then compiler will throw an error.
+
 
 
 

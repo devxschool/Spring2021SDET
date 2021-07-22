@@ -8,6 +8,8 @@ public class Employee {
     private String jobTitle;
     double salary;
 
+    public String message = "Hello all!";
+
     public Employee (int employeeNumber, String name, String DOB, String jobTitle, double salary){
         this.employeeNumber = employeeNumber;
         this.name = name;
@@ -49,7 +51,15 @@ public class Employee {
         this.jobTitle = jobTitle;
     }
 
-    public Double promote(){
+    public Number promote(){
         return salary += 5000;
+    }
+
+    private void simpleMethod(){
+        System.out.println("This is a private method in Employee class only!");
+    }
+
+    public static void staticMethod(){
+        System.out.println("I am static method from Employee class!");
     }
 }
