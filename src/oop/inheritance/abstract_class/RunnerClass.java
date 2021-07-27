@@ -5,8 +5,9 @@ public class RunnerClass {
     public static void main(String[] args) {
 
         // Abstract classes cannot be instantiated directly
-        // We are instantiating an instance of Gas class but it's data type is Car [abstract class]
-        Car car1 = new Gas("Yellow", "4.6L", 123000, 2);
+        // We are instantiating an instance of Electric class but it's data type is Car [abstract class]
+        Car car1 = new Electric("Yellow", "4.6L", 123000, 2, 250);
+        car1.drive();
 
     }
 }

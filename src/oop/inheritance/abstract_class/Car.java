@@ -1,50 +1,17 @@
 package oop.inheritance.abstract_class;
 
-public abstract class Car {
+public abstract class Car extends Vehicle{
 
-    private String color;
-    private String engine;
-    private long mileage;
-    private int doors;
-
-    public abstract void drive();
+    // An abstract class that's extending another abstract class
+    // is not required to implement all the abstract methods of the parent
+    // class, rather it can pass it along to the other classes which are
+    // extending the current class or it has an option to implement them
 
     public Car(String color, String engine, long mileage, int doors) {
-        this.color = color;
-        this.engine = engine;
-        this.mileage = mileage;
-        this.doors = doors;
+        super(color, engine, mileage, doors);
     }
 
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public String getEngine() {
-        return engine;
-    }
-
-    public void setEngine(String engine) {
-        this.engine = engine;
-    }
-
-    public long getMileage() {
-        return mileage;
-    }
-
-    public void setMileage(long mileage) {
-        this.mileage = mileage;
-    }
-
-    public int getDoors() {
-        return doors;
-    }
-
-    public void setDoors(int doors) {
-        this.doors = doors;
+    public void openDoor(){
+        System.out.println("Car door opened.");
     }
 }
