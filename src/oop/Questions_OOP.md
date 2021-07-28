@@ -69,6 +69,26 @@ class. The class that's inherited is called parent class and the extending class
 are called subclasses[child classes]. Only public classes can be extended, 
 if we try to inherit the final class then compiler will throw an error.
 
+## What is an abstract class:
+_Abstract classes_ are the classes which hide methods implementation from extending classes because 
+concrete classes should implement it's methods; 
+Abstract classes cannot be instantiated directly;
+Abstract classes cannot be final, private because they are meant to be extended and all abstract methods
+are meant to be overridden;
+Abstract classes can have both abstract and non abstract methods [any number of them];
+Abstract classes can extend another abstract classes and abstract methods of the parent 
+abstract class can either be implemented in the child abstract class or they have to be
+passed along to the other classes that extend it.
+An abstract class can extend non abstract class and override it's methods but we won't be 
+actually invoke those methods;
+
+## Abstract methods:
+_Abstract methods_ -> methods without the body [implementation];
+They can only by declared in abstract classes;
+They cannot be private, final and they cannot be static because these methods are meant to
+be overridden and static methods cannot be overridden;
+
+
 
 
 

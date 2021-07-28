@@ -14,4 +14,5 @@ public abstract class Car extends Vehicle{
     public void openDoor(){
         System.out.println("Car door opened.");
     }
+
 }
