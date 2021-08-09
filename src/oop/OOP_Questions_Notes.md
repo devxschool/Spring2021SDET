@@ -75,11 +75,11 @@ concrete classes should implement it's methods;
 Abstract classes cannot be instantiated directly;
 Abstract classes cannot be final, private because they are meant to be extended and all abstract methods
 are meant to be overridden;
-Abstract classes can have both abstract and non abstract methods [any number of them];
+Abstract classes can have both abstract and non-abstract methods [any number of them];
 Abstract classes can extend another abstract classes and abstract methods of the parent 
-abstract class can either be implemented in the child abstract class or they have to be
+abstract class can either be implemented in the child abstract class, or they have to be
 passed along to the other classes that extend it.
-An abstract class can extend non abstract class and override it's methods but we won't be 
+An abstract class can extend non-abstract class and override its methods, but we won't be 
 actually invoke those methods;
 
 ## Abstract methods:
@@ -88,8 +88,30 @@ They can only by declared in abstract classes;
 They cannot be private, final and they cannot be static because these methods are meant to
 be overridden and static methods cannot be overridden;
 
+## What is an interface in java?
+_Interfaces_ in java use _interface_ keyword in definition;
+They can only contain abstract classes and default methods [default methods should have
+body];
+Interfaces can contain variables but they are constant [public static final] and they have
+to be initialized upon creation;
+_Interfaces_ cannot be initialized directly, but they can be initialized by subclasses;
+The purpose of interfaces is to be implemented by subclasses;
+_Interfaces_ can 'extend' another interfaces;
+Classes and abstract classes can implement more than one interfaces;
+First concrete classes that implement interfaces must provide an implementation for all
+inherited abstract methods;
+Abstract classes that implement the interface can either implement the inherited methods 
+or they must pass them along to their subclasses;
 
-
+### EX: Convert int to String
+`int a = 5;
+    String s = String.valueOf(a);
+    String s1 = Integer.toString(a);
+`
+### _Convert String to an int_
+`   String s = "3";
+    int a = Integer.parseInt(s);
+    int b = Integer.valueOf(s);`
 
 
 

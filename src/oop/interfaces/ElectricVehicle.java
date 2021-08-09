@@ -1,10 +1,11 @@
 package oop.interfaces;
 
-public interface EV {
+public interface ElectricVehicle {
 
     public static final String s = "EV";
+    public static final int yearMake = 1987;
 
-    void drive();
+    public abstract void drive();
 
     public abstract long addMiles(long miles);
 
@@ -15,4 +16,8 @@ public interface EV {
     default void sayBye(){
         System.out.println("Good bye!");
     }
+
+    default void gear(){
+        System.out.println("EV gears");
+    };
 }

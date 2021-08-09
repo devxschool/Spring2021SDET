@@ -4,13 +4,16 @@ public class EVApp {
 
     public static void main(String[] args) {
 
-        EV ev = new EC(10);
-        ((EC)ev).getMiles();
+        ElectricVehicle model3 = new ElectricCar("Black", "Tesla", 12322323, 2020, 10);
+        System.out.println(model3.addMiles(37));
 
-        AbstractEV et = new ET(100);
-        System.out.println("Before adding miles: " + et.getMiles());
-        et.addMiles(25);
-        System.out.println("After adding 25 miles: " + et.getMiles());
+        //ElectricVehicleSport model99 = new ElectricCar();
+
+        ElectricVehicleSport modelS = new ElectricCar("Red", "Tesla", 128741848, 2021, 5);
+        modelS.accelerate(140);
+
+        TestClass testClass = new TestClass();
+        testClass.gear();
 
     }
 }

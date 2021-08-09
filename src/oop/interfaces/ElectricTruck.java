@@ -1,9 +1,9 @@
 package oop.interfaces;
 
-public class ET extends AbstractEV{
+public class ElectricTruck extends AbstractEV{
 
-    public ET(long miles) {
-        super(miles);
+    public ElectricTruck(String color, String make, long vin, int yearMake, long miles) {
+        super(color, make, vin, yearMake, miles);
     }
 
     @Override
@@ -12,4 +12,5 @@ public class ET extends AbstractEV{
 //        System.out.println(super.getMiles());
         return super.getMiles();
     }
+
 }
